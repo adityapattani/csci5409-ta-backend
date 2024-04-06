@@ -1,0 +1,16 @@
+{
+  "name": "csci5409-ta-backend",
+  "version": "1.0.0",
+  "description": "The backend service for our wholesale application connected to Athena",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Pattani",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1593.0",
+    "express": "^4.19.2"
+  }
+}
